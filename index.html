@@ -1,69 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TEAZER CRACK</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <style>
-    /* ...BURAYA SENİN GÖNDERDİĞİN UZUN CSS KOYULACAK... */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f0c29, #1a1a2e, #16213e);
+      color: #fff;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    .neon-container {
+      max-width: 500px;
+      margin: 30px auto;
+      padding: 30px;
+      background: rgba(15, 12, 41, 0.7);
+      border-radius: 20px;
+      border: 1px solid rgba(0, 191, 255, 0.3);
+      box-shadow: 0 0 30px rgba(0, 191, 255, 0.2), 0 0 60px rgba(0, 191, 255, 0.1), inset 0 0 15px rgba(0, 191, 255, 0.1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .neon-container::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(45deg, transparent, rgba(0, 191, 255, 0.1), transparent);
+      transform: rotate(45deg);
+      animation: shine 6s linear infinite;
+    }
+
+    @keyframes shine {
+      0% { transform: translateX(-100%) rotate(45deg); }
+      100% { transform: translateX(100%) rotate(45deg); }
+    }
+
+    .logo-container {
+      text-align: center;
+      margin: 20px 0 40px;
+    }
+
+    .logo-image {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00bfff;
+      box-shadow: 0 0 30px rgba(0, 191, 255, 0.7), inset 0 0 20px rgba(0, 191, 255, 0.5);
+      transition: all 0.5s ease;
+    }
+
+    .logo-image:hover {
+      transform: scale(1.05) rotate(5deg);
+      box-shadow: 0 0 50px rgba(0, 191, 255, 0.9), inset 0 0 30px rgba(0, 191, 255, 0.7);
+    }
+
+    .title {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      text-align: center;
+      background: linear-gradient(90deg, #00bfff, #0080ff, #00bfff);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      background-size: 200% auto;
+      animation: shineText 3s linear infinite;
+      text-shadow: 0 0 10px rgba(0, 191, 255, 0.3);
+    }
+
+    @keyframes shineText {
+      0% { background-position: 0% center; }
+      100% { background-position: 200% center; }
+    }
+
+    .input-group {
+      margin-bottom: 25px;
+    }
+
+    .input-label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 500;
+      color: rgba(255, 255, 255, 0.9);
+      text-shadow: 0 0 5px rgba(0, 191, 255, 0.3);
+    }
+
+    .input-container {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .key-input {
+      width: 100%;
+      padding: 15px 50px 15px 20px;
+      background: rgba(0, 0, 0, 0.3);
+      border: 2px solid rgba(0, 191, 255, 0.5);
+      border-radius: 12px;
+      color: white;
+      font-size: 16px;
+      outline: none;
+      transition: all 0.3s;
+      box-shadow: 0 0 15px rgba(0, 191, 255, 0.1);
+    }
+
+    .key-input:focus {
+      border-color: #00bfff;
+      box-shadow: 0 0 25px rgba(0, 191, 255, 0.3);
+    }
+
+    .unlock-btn {
+      width: 100%;
+      padding: 16px;
+      background: linear-gradient(45deg, #00bfff, #0066ff);
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 5px 25px rgba(0, 191, 255, 0.4);
+      position: relative;
+    }
+
+    .unlock-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 35px rgba(0, 191, 255, 0.6);
+    }
+
+    .unlock-btn:active {
+      transform: translateY(1px);
+    }
   </style>
 </head>
 <body>
-
-  <div class="snow-container"></div>
-
   <div class="neon-container">
     <div class="logo-container">
-      <img src="https://via.placeholder.com/140" alt="Logo" class="logo-image">
+      <img class="logo-image" src="https://i.ibb.co/k0vhdRz/teazericon.png" alt="Logo">
     </div>
-    <div class="title">TEAZER CRACK</div>
-
+    <h1 class="title">TEAZER CRACK</h1>
     <div class="input-group">
-      <label class="input-label" for="key">Enter your license key</label>
+      <label class="input-label">Enter your license key</label>
       <div class="input-container">
-        <input type="password" id="key" class="key-input" placeholder="Enter key...">
-        <i class="fas fa-eye toggle-password" onclick="togglePassword()"></i>
-        <button class="paste-btn" onclick="pasteKey()"><i class="fas fa-paste"></i></button>
+        <input class="key-input" type="text" id="key" placeholder="Enter Key">
       </div>
     </div>
-
-    <button class="unlock-btn" onclick="checkKey()"><i class="fas fa-lock-open"></i> Unlock</button>
-
-    <div class="contact-link">
-      Need help? <a href="https://t.me/teazerddos_bot" target="_blank">Contact Support</a>
-    </div>
-
-    <div class="download-section" id="download-section">
-      <div class="version-title">Available Versions</div>
-      <div class="version-grid">
-        <div class="version-card" onclick="alert('Downloading...')">v1.0 - Basic</div>
-        <div class="version-card" onclick="alert('Downloading...')">v2.0 - Advanced</div>
-      </div>
-    </div>
+    <button class="unlock-btn" onclick="alert('Key kontrol edilecek')">
+      Unlock
+    </button>
   </div>
-
-  <script>
-    function togglePassword() {
-      const input = document.getElementById('key');
-      input.type = input.type === 'password' ? 'text' : 'password';
-    }
-
-    function pasteKey() {
-      navigator.clipboard.readText().then(text => {
-        document.getElementById('key').value = text;
-      });
-    }
-
-    function checkKey() {
-      const key = document.getElementById('key').value;
-      if (key === "teazer123") { // Buraya gerçek key kontrolü gelecek
-        document.getElementById('download-section').style.display = 'block';
-        alert("Key doğru! İndirme açıldı.");
-      } else {
-        alert("Geçersiz key!");
-      }
-    }
-  </script>
 </body>
 </html>
